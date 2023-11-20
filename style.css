@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.hamburguesa {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(img/hamburgesa-02.png);
+    background-size: cover;
+    z-index: 3;
+    border: 1px solid green;
+}
+.login {
+    font-size: 16px;
+    color: green;
+    padding: 0 10px;
+    line-height: 35px;
+    border: 4px solid green;
+    background-color: transparent;
+    z-index: 3;
+}
+.hambur {
+    width: 100%;
+    height: 75px;
+    background-color: #091620a4;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: none;
+    position: absolute;
+    top: 0;
+
+}
+.hambur a {
+    font-size: 14px;
+    color: white;
+    padding: 0 10px;
+    line-height: 35px;
+    border: 2px solid white;
+    background-color: transparent;
+    z-index: 2;
+}
+.active-menu {
+    display: flex;
+}
+.info-seccion{
+    position: relative;
+    padding: 100px 0 250px 0;
+}
+.ingresar {
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    border: 3px solid #00897C;
+    color: #00897C;
+}
+.hefest {
+    position: absolute;
+    top: 248px;
+    left: 345px;
+}
+.comi {
+    position: absolute;
+    top: 248px;
+    left: 555px;
+}
+.acer {
+    position: absolute;
+    top: 248px;
+    right: 557px;
+}
+.cont {
+    position: absolute;
+    top: 248px;
+    right: 340px;
+}
+.pete {
+    position: absolute;
+    top: 75px;
+    left: 550px;
+}
+.clara {
+    width: 100%;
+    height: 90px;
+    background-color: #4dbfd9;
+    position: absolute;
+    bottom: 110px;
+}
+.oscura {
+    width: 100%;
+    height: 110px;
+    background-color: #1C91C0;
+    position: absolute;
+    bottom: 0px;
+} 
+.redes {
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    bottom: 10px;
+}
+.montana-home {
+    position: absolute;
+    bottom: 200px;
+    width: 100%;
+}
+.montanas{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 200px;
+}
+.vectoresHome {
+    position: absolute;
+    bottom: 130px;
+    /* left: 180px; */
+    z-index: 1;
+}
+.historia {
+    width: 100px;
+    height: 35px;
+    background-color: #00897C;
+    border: none;
+    color: white;
+}
+.objet {
+    width: 100px;
+    height: 35px;
+    background-color: #00897C;
+    border: none;
+    color: white;
+}
+#hefesto {
+    position: relative;
+}
+.logo-info {
+    width: 300px;
+}
+.cont-seccion {
+    background-color: #72C2EA;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.contact {
+    /* height: 300px; */
+    background: #A9E7FF;
+    position: absolute;
+    bottom: 236px;
+    z-index: 2;
+}
+.aguaPlaya {
+    width: 100%;
+    height: 300px;
+    background-color: #0B7CB5;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.playa {
+    width: 100%;
+    margin-top: 208px;
+}
+/* .montallas {
+    width: 100%;
+    height: 200px;
+    background-image: url(img/montañas-03.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+} */
+.btn-green{
+    background-color: #00897C;
+}
